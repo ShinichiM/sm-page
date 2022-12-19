@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { rootCertificates } from "tls";
+import React from "react";
 
-export const Hamburger = () => {
-  const [menu, setMenu] = useState(false);
+type Props = {
+  menu: boolean;
+  setMenu: (menu: boolean) => void;
+};
 
+export const Hamburger: React.FC<Props> = ({ menu, setMenu }) => {
   const menuChangeHandler = () => {
     setMenu(!menu);
-    // if (menu) {
-    // }
   };
 
   return (
