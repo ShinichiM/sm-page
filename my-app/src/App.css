@@ -26,12 +26,8 @@
   justify-content: space-between;
   align-items: center;
   font-size: calc(10px + 3vmin);
-  /* color: rgb(89, 221, 197); */
   color: #eec262;
-  /* background-color: #33658A; */
-  /* background-color: #282c34; */
   border-bottom: 0.05rem solid;
-  /* box-shadow: -1rem -0.15rem; */
 }
 
 .navbar ul {
@@ -84,6 +80,7 @@
 /* -------------------------- MOBILE MENU START */
 
 .mobile-menu-container {
+  visibility: hidden;
   margin: 0;
   padding: 5% 10% 5% 10%;
   position: fixed;
@@ -92,25 +89,44 @@
   top: -110vh;
   /* left: -100vw; */
   background-color: beige;
+
+  background-color: #282c34;
 }
 .mobile-menu-slide-in {
-  transition: transform 0.5s ease-in-out;
-  /* transition: transform 1s ease-in-out; */
+  visibility: visible;
+  transition: transform 0.3s ease-in;
   transform: translateY(110vh);
 }
 .mobile-menu-slide-out {
-  transition: transform 0.5s ease-in-out;
+  visibility: hidden;
+  transition: transform 0.5s ease-out, visibility 0.5s;
   transform: translateY(-110vh);
 }
 .mobile-menu-container ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: calc(10px + 3vmin);
+  color: #eec262;
+  width: 75%;
 }
 .mobile-menu-container ul li {
   margin: 0;
   padding: 0;
+  padding: 5% 0 5% 0;
   list-style: none;
+  font-size: calc(10px + 3vmin);
+  color: #eec262;
+}
+
+.mobile-menu-container h2 {
+  font-size: calc(10px + 3vmin);
+  color: #eec262;
+}
+
+.mobile-menu-link {
+  border-bottom: 0.1rem solid #eec262;
+  /* color: #eec262; */
 }
 /* -------------------------- MOBILE MENU END */
 .App-link {
