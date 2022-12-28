@@ -2,7 +2,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
-import { Work } from "./pages/Work";
+import { Project } from "./pages/Project";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <About />
       <Contact />
-      <Work />
+      <Project />
     </section>
   );
 }
