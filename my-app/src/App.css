@@ -129,6 +129,35 @@
   /* color: #eec262; */
 }
 /* -------------------------- MOBILE MENU END */
+
+/* -------------------------- PAGE CONTAINER START */
+.page-container {
+  border: 0.1rem solid #eec262;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem auto 0 auto;
+}
+.page-container h2 {
+  color: #eec262;
+  display: inline-block;
+}
+.content-spacing {
+  margin: 0.5rem 0 0 0.5rem;
+}
+.img-name-spacing {
+  display: flex;
+  flex-direction: row;
+}
+/* -------------------------- PAGE CONTAINER START */
+
+/* -------------------------- PHOTO START */
+.photo {
+  width: 30vw;
+  /* height: 30vh; */
+}
+/* -------------------------- PHOTO START */
 .App-link {
   color: #61dafb;
 }
