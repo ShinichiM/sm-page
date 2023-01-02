@@ -22,8 +22,24 @@
   --bs-accordion-border-color: #eec262 !important;
   --bs-accordion-btn-color: rgba(255, 255, 255, 0.75) !important;
 }
-.accordion-button {
-  /* color: rgba(255, 255, 255, 0.75) !important; */
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.btn:hover {
+  background-color: rgba(238, 194, 98, 0.75) !important;
+}
+.btn-primary {
+  margin-top: 1.5vh;
+  --bs-btn-bg: none !important;
+  --bs-btn-border-color: #eec262 !important;
+}
+.project-button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15% 0 15%;
 }
 /* --------------------------- NAVBAR START */
 .navbar {

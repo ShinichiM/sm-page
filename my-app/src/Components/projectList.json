@@ -3,14 +3,14 @@
     "name": "Food Festival",
     "description": "A single page application utilizing React and Typescript to display a landing page for a local food festival! The application contains information for event schedules and ticket purchasing. Currently does not allow users to purchase tickets, but displays popup modals for user experience. Come check out the Food Festival site!",
     "link": "https://festival-a346f.web.app/",
-    "repo": "https://github.com/ShinichiM/festival",
+    "repo": "https://github.com/ShinichiM/festival/",
     "image": "/images/food-festival.jpg"
   },
   {
     "name": "Book Search",
     "description": "An application that utilizes the Google Book Search API to allow users to search for and save their favorite books! The application uses the standard MERN stack for dynamic page rendering to keep client side resources low and a mixture of MongoDB and GraphQL for more customizable querying and schema development. I also wanted to stay away from REST API as this can sometimes return uneeded or excess data. Some features I would like to implement in the upcoming future is to add E-commerce functionality such that users are able to also buy their books from this website.",
     "link": "https://book-search-82e85.web.app/",
-    "repo": "https://github.com/ShinichiM/book-search-engine",
+    "repo": "https://github.com/ShinichiM/book-search-engine/",
     "image": "/images/book-search.jpg"
   }
 ]
