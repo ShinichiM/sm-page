@@ -32,19 +32,16 @@ export const Project = ({ projectItem }: ProjectProps) => {
         <Card.Title className="text-color">{projectItem.name}</Card.Title>
         <Card.Img variant="top" src={projectItem.image} />
         {projectItem.description.length > 100 ? (
-          <Card.Text>
-            <Accordion>
-              <Accordion.Item eventKey="0">
-                <Accordion.Header
-                  className="d-flex justify-content-between"
-                  style={{ padding: 0 }}
-                >
-                  Description
-                </Accordion.Header>
-                <Accordion.Body>{projectItem.description}</Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
-          </Card.Text>
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header
+                className="d-flex justify-content-between"
+              >
+                Description
+              </Accordion.Header>
+              <Accordion.Body>{projectItem.description}</Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         ) : (
           <Card.Text>{projectItem.description}</Card.Text>
         )}
