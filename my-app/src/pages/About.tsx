@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className="page-container">
+    <div className="page-container" id="about">
       <h2>About</h2>
       <div className="img-name-spacing">
         <img

@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="page-container">
+    <div className="page-container" id="contact">
       <h2>Contact</h2>
       <ul>
         <li className="text-color">

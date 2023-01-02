@@ -14,16 +14,6 @@ export const Project = ({ projectItem }: ProjectProps) => {
     event.preventDefault();
     window.location.href = projectItem.repo;
   };
-  const descriptionShort = (description: string): string => {
-    let shortDescription = "";
-    description.split("").forEach((char: string, index: number) => {
-      if (index < 47) {
-        shortDescription = shortDescription.concat(char);
-      }
-    });
-    shortDescription = shortDescription.concat("...");
-    return shortDescription;
-  };
 
   return (
     <Card

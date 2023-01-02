@@ -14,13 +14,13 @@ export const MobileMenu = ({ menu }: MobileMenuProps) => {
       </h2>
       <ul className="mobile-menu-links">
         <li className="mobile-menu-link" style={{ fontSize: "7vw" }}>
-          About
+          <a href="#about">About</a>
         </li>
         <li className="mobile-menu-link" style={{ fontSize: "7vw" }}>
-          Work
+          <a href="#projects">Work</a>
         </li>
         <li className="mobile-menu-link" style={{ fontSize: "7vw" }}>
-          Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

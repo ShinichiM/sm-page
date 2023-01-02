@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Navbar } from "./components/Navbar";
+import { NavbarComponent } from "./components/NavbarComponent";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Projects } from "./pages/Projects";
@@ -8,7 +8,7 @@ import { Projects } from "./pages/Projects";
 function App() {
   return (
     <section className="main-container overflow-auto">
-      <Navbar />
+      <NavbarComponent />
       <About />
       <Contact />
       <Projects />

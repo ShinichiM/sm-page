@@ -17,10 +17,14 @@
 .accordion {
   border-width: 0;
   --bs-accordion-border-radius: 0 !important;
-  --bs-accordion-bg: #282c34 !important;
-  --bs-accordion-color: rgba(255, 255, 255, 0.75) !important;
+  /* --bs-accordion-bg: #282c34 !important; */
+  /* --bs-accordion-color: rgba(255, 255, 255, 0.75) !important; */
   --bs-accordion-border-color: #eec262 !important;
-  --bs-accordion-btn-color: rgba(255, 255, 255, 0.75) !important;
+  /* --bs-accordion-btn-color: rgba(255, 255, 255, 0.75) !important; */
+}
+.accordion-body {
+  background-color: #282c34 !important;
+  color: rgba(255, 255, 255, 0.725) !important;
 }
 
 .accordion-item:first-of-type .accordion-button {
@@ -40,6 +44,10 @@
   display: flex;
   justify-content: space-between;
   padding: 0 15% 0 15%;
+}
+
+.nav-link {
+  color: #eec262 !important;
 }
 /* --------------------------- NAVBAR START */
 .navbar {
