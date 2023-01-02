@@ -9,6 +9,15 @@
   width: 100vw;
 }
 
+.accordion-item button {
+  /* height: 3vh; */
+  padding: 0.3vh;
+}
+.accordion {
+  border-width: 0;
+  --bs-accordion-border-radius: 0 !important;
+}
+
 /* --------------------------- NAVBAR START */
 .navbar {
   padding: 5% 10% 5% 10%;

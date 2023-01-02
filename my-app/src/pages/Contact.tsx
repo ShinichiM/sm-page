@@ -1,6 +1,7 @@
 export const Contact = () => {
   return (
     <div className="page-container">
+      <h2>Contact</h2>
       <ul>
         <li className="text-color">
           <img

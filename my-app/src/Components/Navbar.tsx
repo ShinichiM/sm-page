@@ -8,8 +8,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
-        <h2>SM</h2>
+      <nav className="navbar px-4 py-4">
+        <h2 style={{fontSize: "8vw"}}>SM</h2>
         <ul>
           <div className="hamburger">
             <Hamburger menu={menu} setMenu={setMenu} />
