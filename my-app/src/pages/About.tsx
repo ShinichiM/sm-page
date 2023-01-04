@@ -1,6 +1,8 @@
 export const About = () => {
+  // const style = window.innerWidth >= 1025 ? 'width: "80vw"' : "";
+  
   return (
-    <div className="page-container" id="about">
+    <div className="page-container" id="about" >
       <h2>About</h2>
       <div className="img-name-spacing">
         <img

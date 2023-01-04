@@ -5,10 +5,9 @@ import React, { useState } from "react";
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 
 export const NavbarComponent = () => {
-  const [menu, setMenu] = useState<boolean>(false);
   const expand = "lg";
 
-  return (
+  return window.innerWidth < 1025 ? (
     <>
       <Navbar
         key={expand}
@@ -59,15 +58,55 @@ export const NavbarComponent = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-      {/* <nav className="navbar px-4 py-4">
-        <h2 style={{ fontSize: "8vw" }}>SM</h2>
-        <ul>
-          <div className="hamburger">
-            <Hamburger menu={menu} setMenu={setMenu} />
+    </>
+  ) : (
+    <>
+      <nav
+        className="navbar-container"
+        style={{ borderRight: "0.1vw solid #eec262" }}
+      >
+        <div className="navbar-spacing">
+          <div>
+            <a className="" href="/" style={{ fontSize: "2.8vw" }}>
+              SM
+            </a>
           </div>
-        </ul>
-        <MobileMenu menu={menu} />
-      </nav> */}
+          <ul className="">
+            <li>
+              <a className="" href="#about" style={{ fontSize: "1.5vw" }}>
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#" className="" style={{ fontSize: "1.5vw" }}>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a className="" href="#contact" style={{ fontSize: "1.5vw" }}>
+                Contact
+              </a>
+            </li>
+            <li>
+              <div style={{ marginTop: "2.5vh" }}>
+                <a href="https://github.com/ShinichiM">
+                  <img src="/images/github.svg" alt="github"></img>
+                </a>
+
+                <a href="https://www.linkedin.com/in/shinichi-miyakawa/">
+                  <img src="images/linkedIn.svg" alt="linkedin"></img>
+                </a>
+              </div>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 };

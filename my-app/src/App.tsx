@@ -8,10 +8,23 @@ import { Projects } from "./pages/Projects";
 function App() {
   return (
     <section className="main-container overflow-auto">
-      <NavbarComponent />
-      <About />
-      <Contact />
-      <Projects />
+      <>
+        <NavbarComponent />
+        <div className="desktop-style">
+          <About />
+          <Contact />
+          <Projects />
+        </div>
+      </>
+      {/* {window.innerWidth < 1025 ? (
+        <>
+          <NavbarComponent />
+          <About />
+          <Contact />
+          <Projects />
+        </>
+      ) : (
+      )} */}
     </section>
   );
 }
