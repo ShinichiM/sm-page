@@ -12,5 +12,12 @@
     "link": "https://book-search-82e85.web.app/",
     "repo": "https://github.com/ShinichiM/book-search-engine/",
     "image": "/images/book-search.jpg"
+  },
+  {
+    "name": "Password Generator",
+    "description": "A web application using JavaScript and HTML that generates a password based on user selection of password: length, special characters, upper and lower case characters, and numerical values.",
+    "link": "https://shinichim.github.io/Password-Generator/",
+    "repo": "https://github.com/ShinichiM/Password-Generator",
+    "image": "/images/password-generator.png"
   }
 ]
