@@ -196,6 +196,25 @@
 .card {
   --bs-card-border-radius: 1vw !important;
 }
+.display-desktop-menu {
+  visibility: hidden !important;
+  display: none;
+}
+.home-page {
+  visibility: hidden;
+  /* display: none; */
+}
+.contact-items {
+  /* width: fit-content; */
+}
+.contact-items li {
+  padding: 1% 0 0 5% !important;
+}
+.contact-items li img {
+  margin-right: 5% !important;
+  width: 8vw;
+}
+
 /* -------------------------- PAGE CONTAINER START */
 @media only screen and (min-width: 1024px) {
   .page-container {
@@ -214,7 +233,35 @@
     position: absolute;
     top: 0;
     left: 20vw;
-    overflow:auto;
+    overflow: auto;
+  }
+  .display-desktop-menu {
+    visibility: visible !important;
+    display: flex;
+  }
+  .background-img {
+    background-image: url("/public/images/front-page.jpg");
+    background-size: 80vw;
+  }
+  .display-mobile {
+    display: none !important;
+  }
+  .home-page {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+  .contact-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact-items li {
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    width: fit-content
+  }
+  .contact-items li img {
+    width: 3vw;
   }
 }
 .page-container {
@@ -269,9 +316,6 @@
 .photo {
   width: 30vw;
   /* height: 30vh; */
-}
-.svg-size {
-  width: 5vw;
 }
 /* -------------------------- PHOTO/IMG STYLES END */
 .App-link {

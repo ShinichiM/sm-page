@@ -1,28 +1,34 @@
 export const Contact = () => {
   return (
-    <div className="page-container" id="contact">
+    <div
+      className="page-container"
+      style={{
+        backgroundColor: "#282c34",
+      }}
+      id="contact"
+    >
       <h2>Contact</h2>
-      <ul>
+      <ul className="contact-items">
         <li className="text-color">
           <img
             src="/images/mail.svg"
-            className="svg-size font-family"
+            className="font-family"
             alt="email"
           />
-          miyakawashi@gmail.com
+          <span>miyakawashi@gmail.com</span>
         </li>
         <li className="text-color">
           <img
             src="/images/phone2.svg"
-            className="svg-size"
+            className=""
             alt="phone-number"
           />
-          (614)578-2539
+          <span>(614)578-2539</span>
         </li>
         <li className="text-color">
           <img
             src="/images/linkedIn.svg"
-            className="svg-size font-family"
+            className="font-family"
             alt="email"
           />
           <a href="https://www.linkedin.com/in/shinichi-miyakawa/">
@@ -32,7 +38,7 @@ export const Contact = () => {
         <li className="text-color">
           <img
             src="/images/github.svg"
-            className="svg-size font-family"
+            className="font-family"
             alt="email"
           />
           <a href="https://github.com/shinichiM">shinichiM</a>

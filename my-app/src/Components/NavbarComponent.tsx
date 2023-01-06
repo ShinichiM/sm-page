@@ -1,19 +1,16 @@
 import "../App.css";
-import { Hamburger } from "./Hamburger";
-import { MobileMenu } from "./MobileMenu";
-import React, { useState } from "react";
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 
 export const NavbarComponent = () => {
   const expand = "lg";
 
-  return window.innerWidth < 1025 ? (
+  return (
     <>
       <Navbar
         key={expand}
         style={{ backgroundColor: "#282c34" }}
         expand={expand}
-        className="mb-3"
+        className="mb-3 display-mobile"
         sticky="top"
       >
         <Container fluid>
@@ -58,11 +55,9 @@ export const NavbarComponent = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
-  ) : (
-    <>
+
       <nav
-        className="navbar-container"
+        className="navbar-container display-desktop-menu"
         style={{ borderRight: "0.1vw solid #eec262" }}
       >
         <div className="navbar-spacing">
@@ -79,12 +74,7 @@ export const NavbarComponent = () => {
             </li>
             <li>
               <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#" className="" style={{ fontSize: "1.5vw" }}>
-                Skills
+                Projects
               </a>
             </li>
             <li>
