@@ -33,18 +33,16 @@ export const Project = ({ projectItem }: ProjectProps) => {
             border: "0.1vw solid #eec262",
           }}
         />
-        {projectItem.description.length > 100 ? (
-          <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header className="d-flex justify-content-between">
-                Description
-              </Accordion.Header>
-              <Accordion.Body>{projectItem.description}</Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        ) : (
-          <Card.Text>{projectItem.description}</Card.Text>
-        )}
+
+        <Accordion>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header className="d-flex justify-content-between">
+              Description
+            </Accordion.Header>
+            <Accordion.Body>{projectItem.description}</Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
         <div className="project-button-container">
           <Button
             variant="primary"

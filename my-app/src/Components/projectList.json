@@ -1,5 +1,12 @@
 [
   {
+    "name": "Job Scraper - Indeed API",
+    "description": "A custom API endpoint that will scrape job data from Indeed.com through puppeteer.js web scraping",
+    "link": "https://us-central1-job-scraper-5b752.cloudfunctions.net/scrape?title=Software%20Engineer&location=Seattle,%20Washington/",
+    "repo": "https://github.com/ShinichiM/job-scraper/",
+    "image": "/images/job-scraper.jpg"
+  },
+  {
     "name": "Food Festival",
     "description": "A single page application utilizing React and Typescript to display a landing page for a local food festival! The application contains information for event schedules and ticket purchasing. Currently does not allow users to purchase tickets, but displays popup modals for user experience. Come check out the Food Festival site!",
     "link": "https://festival-a346f.web.app/",
@@ -17,7 +24,7 @@
     "name": "Password Generator",
     "description": "A web application using JavaScript and HTML that generates a password based on user selection of password: length, special characters, upper and lower case characters, and numerical values.",
     "link": "https://shinichim.github.io/Password-Generator/",
-    "repo": "https://github.com/ShinichiM/Password-Generator",
+    "repo": "https://github.com/ShinichiM/Password-Generator/",
     "image": "/images/password-generator.png"
   }
 ]
