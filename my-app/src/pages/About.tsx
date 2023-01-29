@@ -16,8 +16,8 @@ export const About = () => {
           className="photo content-spacing"
           alt="selfie"
         />
-        <h2 className="content-spacing">Shinichi</h2>
-        <h2 className="content-spacing">Miyakawa</h2>
+        <h2 className="content-spacing">Shinichi Miyakawa</h2>
+        {/* <h2 className="content-spacing">Miyakawa</h2> */}
       </div>
       <article className="content-spacing text-color font-family">
         Hi there, my name is Shinichi. I'm a Computer Systems Validation
