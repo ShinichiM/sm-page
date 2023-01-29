@@ -8,11 +8,14 @@ interface ProjectProps {
 export const Project = ({ projectItem }: ProjectProps) => {
   const handleDemoRedirect = (event: React.MouseEvent<HTMLElement>): void => {
     event.preventDefault();
-    window.location.href = projectItem.link;
+    window.open(projectItem.link, "_blank")?.focus();
+    // window.location.href = projectItem.link;
   };
   const handleGitHubRedirect = (event: React.MouseEvent<HTMLElement>): void => {
     event.preventDefault();
-    window.location.href = projectItem.repo;
+
+    window.open(projectItem.repo, "_blank")?.focus();
+    // window.location.href = projectItem.repo;
   };
 
   return (
