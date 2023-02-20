@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A single page application utilizing React and Typescript to display a landing page for a local food festival! The application contains information for event schedules and ticket purchasing. Currently does not allow users to purchase tickets, but displays popup modals for user experience. Come check out the Food Festival site!
+A single page application utilizing React and Typescript to display a landing page for projects I have worked on. This is a continuous page so projects will be added as they are completed. Come check our my work!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
