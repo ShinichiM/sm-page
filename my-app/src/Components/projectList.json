@@ -1,5 +1,12 @@
 [
   {
+    "name": "Weather App",
+    "description": "A weather application using React and Typescript with third party APIs: OpenWeatherData & Unsplash to display current and 5-day forecast weather for a user searched location!",
+    "link": "https://weather-73c3e.web.app/",
+    "repo": "https://github.com/ShinichiM/weather",
+    "image": "/images/weather-project.jpg"
+  },
+  {
     "name": "Job Scraper - Indeed API",
     "description": "A custom API endpoint that will scrape job data from Indeed.com through puppeteer.js web scraping",
     "link": "https://us-central1-job-scraper-5b752.cloudfunctions.net/scrape?title=Software%20Engineer&location=Seattle,%20Washington/",
