@@ -17,7 +17,9 @@ export const NavbarComponent = () => {
           <Navbar.Brand
             style={{ color: "#eec262" }}
             className="px-4"
-            href={`${window.location.origin}`}
+            // href={`${window.location.origin}`}
+
+            href="#home"
           >
             SM
           </Navbar.Brand>
@@ -62,7 +64,7 @@ export const NavbarComponent = () => {
       >
         <div className="navbar-spacing">
           <div>
-            <a className="" href="/" style={{ fontSize: "2.8vw" }}>
+            <a className="" href="#home" style={{ fontSize: "2.8vw" }}>
               SM
             </a>
           </div>

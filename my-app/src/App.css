@@ -4,6 +4,7 @@
 
 .main-container {
   background-color: #282c34;
+  /* background-color: rgba(40, 44, 52, 0.75); */
   /* background-color: #2F4858; */
   height: 100vh;
   width: 100vw;
@@ -202,7 +203,7 @@
 }
 .home-page {
   visibility: hidden;
-  /* display: none; */
+  display: none;
 }
 .contact-items {
   /* width: fit-content; */
@@ -218,10 +219,12 @@
 /* -------------------------- PAGE CONTAINER START */
 @media only screen and (min-width: 1024px) {
   .page-container {
-    border: 0.1rem solid #eec262;
-    border-radius: 1vw;
+    /* border: 0.1rem solid #eec262; */
+    /* border-radius: 1vw; */
     width: 75vw !important;
     display: flex;
+    /* display: grid;
+    grid-template-columns: auto auto; */
     justify-content: center;
     flex-direction: column;
     /* margin: 1rem auto 0 auto; */
@@ -265,7 +268,7 @@
   }
 }
 .page-container {
-  border: 0.1rem solid #eec262;
+  /* border: 0.1rem solid #eec262; */
   border-radius: 1vw;
   width: 90vw;
   display: flex;
