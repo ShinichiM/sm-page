@@ -4,6 +4,8 @@ import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 export const NavbarComponent = () => {
   const expand = "lg";
 
+  // Add eventlistener, onClick, onSelect, function to list all available projects as a dropdown menu
+  // or expandable menu when selecting Projects Nav Link
   return (
     <>
       <Navbar
