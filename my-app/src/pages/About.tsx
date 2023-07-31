@@ -18,12 +18,12 @@ export const About = () => {
           alt="selfie"
         /> */}
         <h2 className="content-spacing">Hi there! My name is Shinichi</h2>
-        <h2 className="content-spacing">and I'm a Full Stack Web Developer</h2>
       </div>
       <article className="content-spacing text-color font-family">
-        Whether I'm spending time at the desk, playing the bass, or in the gym
-        you'll always find me smiling and loving every second of it. I try to
-        build simple and functional apps with a focus on ease-of-use
+        Whether I'm spending time at the desk, playing the bass, or in the gym I
+        try to keep things light and always have a smile on my face. I try to
+        build simple and functional apps with a focus on user friendliness. Come
+        check them out!
       </article>
     </div>
   );

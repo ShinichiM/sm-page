@@ -18,7 +18,6 @@ export const NavbarComponent = () => {
             style={{ color: "#eec262" }}
             className="px-4"
             // href={`${window.location.origin}`}
-
             href="#home"
           >
             SM
@@ -43,14 +42,14 @@ export const NavbarComponent = () => {
                 <Nav.Link href="#about" style={{ color: "eec262 !important" }}>
                   About
                 </Nav.Link>
+                <Nav.Link href="#contact" style={{ color: "eec262" }}>
+                  Contact
+                </Nav.Link>
                 <Nav.Link
                   href={`${window.location.origin}/#projects`}
                   style={{ color: "eec262" }}
                 >
-                  Work
-                </Nav.Link>
-                <Nav.Link href="#contact" style={{ color: "eec262" }}>
-                  Contact
+                  Projects
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>
@@ -75,13 +74,13 @@ export const NavbarComponent = () => {
               </a>
             </li>
             <li>
-              <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
-                Projects
+              <a className="" href="#contact" style={{ fontSize: "1.5vw" }}>
+                Contact
               </a>
             </li>
             <li>
-              <a className="" href="#contact" style={{ fontSize: "1.5vw" }}>
-                Contact
+              <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
+                Projects
               </a>
             </li>
             <li>
