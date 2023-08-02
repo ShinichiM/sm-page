@@ -188,7 +188,8 @@
 .navbar-spacing a {
   text-decoration: none !important;
   color: #eec262 !important;
-  padding: 0 0 0 10%;
+  /* padding: 0 0 0 10%; */
+  margin: 0 0 0 10%;
 }
 .navbar-spacing a:hover {
   /* color:rgba(238, 194, 98, 0.75); */
@@ -201,19 +202,22 @@
   visibility: hidden !important;
   display: none;
 }
-.home-page {
+/* .home-page {
   visibility: hidden;
   display: none;
-}
+} */
 .contact-items {
   /* width: fit-content; */
+  display: flex;
+  justify-content: space-around;
 }
 .contact-items li {
-  padding: 1% 0 0 5% !important;
+  /* padding: 1% 0 0 5% !important; */
 }
 .contact-items li img {
-  margin-right: 5% !important;
+  /* margin-right: 5% !important; */
   width: 8vw;
+  padding-right: 5%;
 }
 
 /* -------------------------- PAGE CONTAINER START */
@@ -277,6 +281,10 @@
   margin: 1rem auto 0 auto;
 }
 .page-container h2 {
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+}
+h2 {
   color: rgba(255, 255, 255, 0.75);
   /* color: #eec262; */
   display: inline-block;

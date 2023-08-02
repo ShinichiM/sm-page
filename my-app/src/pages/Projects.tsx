@@ -4,14 +4,10 @@ export const Projects = () => {
   const projectList = require("../components/projectList.json");
   return (
     <>
-      <div
-        className="page-container"
-        style={{
-          backgroundColor: "#282c34",
-        }}
-        id="projects"
-      >
-        <h2>Projects</h2>
+      <h2 className="page-container" id="projects">
+        Projects
+      </h2>
+      <div className="page-container">
         {projectList.map((projectItem: any, index: number) => {
           return <Project projectItem={projectItem} key={index.toString()} />;
         })}

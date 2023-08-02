@@ -20,10 +20,10 @@ export const Project = ({ projectItem }: ProjectProps) => {
     <Card
       style={{
         position: "static",
-        backgroundColor: "#282c34",
+        backgroundColor: "rgba(40, 44, 52, 0.7)",
+        marginBottom: "1%",
       }}
     >
-      {/* <Card.Header as="h5">Project One</Card.Header> */}
       <Card.Body>
         <Card.Title className="text-color">{projectItem.name}</Card.Title>
         <Card.Img

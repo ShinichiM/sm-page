@@ -76,13 +76,13 @@ export const NavbarComponent = () => {
               </a>
             </li>
             <li>
-              <a className="" href="#contact" style={{ fontSize: "1.5vw" }}>
-                Contact
+              <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
+                Projects
               </a>
             </li>
             <li>
-              <a href="#projects" className="" style={{ fontSize: "1.5vw" }}>
-                Projects
+              <a className="" href="#contact" style={{ fontSize: "1.5vw" }}>
+                Contact
               </a>
             </li>
             <li>

@@ -14,8 +14,8 @@ function App() {
         <div className="desktop-style background-img">
           <Home />
           <About />
-          <Contact />
           <Projects />
+          <Contact />
         </div>
       </>
     </section>
