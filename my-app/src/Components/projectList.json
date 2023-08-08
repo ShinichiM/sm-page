@@ -8,8 +8,8 @@
   },
   {
     "name": "Job Scraper - Indeed API",
-    "description": "A custom API endpoint that will scrape job data from Indeed.com through puppeteer.js web scraping",
-    "link": "https://us-central1-job-scraper-5b752.cloudfunctions.net/scrape?title=Software%20Engineer&location=Seattle,%20Washington/",
+    "description": "A custom API endpoint that scrapes Indeed.com with puppeteer.js and Typescript that is hosted via Google Cloud Functions through ScraperAPI proxy servers. The endpoint will scrape jobs input into the URL query parameters q and l (Job Title and Location)",
+    "link": "https://us-central1-job-scraper-5b752.cloudfunctions.net/scrapeIndeed?q=Software%20Developer&l=Seattle,%20Washington",
     "repo": "https://github.com/ShinichiM/job-scraper/",
     "image": "/images/job-scraper.jpg"
   },
